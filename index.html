@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi perfil</title>
+  </head>
+  <body>
+    <div>
+      <img
+        src="imagenes/WIN_20230528_10_42_06_Pro.jpg"
+        alt="foto de perfil"
+        width="40%"
+        height="30%"
+      />
+      <ul>
+        <li>Nombre: Nicolás</li>
+        <li>Apellido: Figueroa</li>
+        <li>Edad: 29</li>
+        <li>Email: nykocko@gmail.com</li>
+      </ul>
+      <p>
+        Futuro programador, actualmente trabajo en Dass Argentina, una fábrica
+        de calzado desde hace 11 años; Estoy invirtiendo en herramintas para
+        trabajar en el rubro de refrigeración (reparación de heladeras,
+        instalación y reparación de aires acondicionados) una rápida salida
+        laboral con buenos ingresos (meta a corto plazo) que me permitirá
+        manejar mis tiempos y seguir estudiando y avanzando en el campo de la
+        programación.
+      </p>
+    </div>
+    <hr />
+    <h2>Contactese con nosotros</h2>
+    <form action="get">
+      <div>
+        <label>
+          Nombre: <input type="text" name="nombre" maxlength="15" placeholder="Jhon"/>
+        </label>
+      </div>
+      <div>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" placeholder="Mariscal" required />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="juanjo-74@gmail.com"
+          required
+        />
+      </div>
+      <div>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" required min="13" max="27" />
+      </div>
+      <div>
+        <label for="tel">Telefono:</label>
+        <input type="tel" id="tel" required />
+      </div>
+      <input type="submit" value="Enviar" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
